@@ -1,8 +1,9 @@
 .casa-caja {
-	width: 1270px;
-	height: 500px;
+	width: 1000px;
+	height: 600px;
 	margin: 0 auto;
     position: relative;
+    background-color: #380B61;
 	
 }
 
@@ -18,10 +19,9 @@
 .base {
 	width: 550px; 
     height: 200px; 
-    border: 3px solid black;
     background-color: pink;
-    top: 395px;
-    margin: 0 auto;
+    top: 400px;
+    left: 200px;
     position: absolute;
 }
 
@@ -31,35 +31,105 @@
     border-right: 60px solid transparent;
     border-left: 60px solid transparent;
     border-bottom: 150px solid blue;
-    top: 50px;
-    margin: 0 auto;
+    top: 250px;
+    left: 145px;
     position: absolute;
 }
 
 .ventana1 {
-
+    height:80px;
+    width:100px;
+    background-color: white;
+    border: 8px solid brown;
+    position: absolute;
+    left: 250px;
+    top: 450px;
 }
 
 .ventana2 {
-
+    height:80px;
+    width:100px;
+    background-color: white;
+    border: 8px solid brown;
+    position: absolute;
+    left: 580px;
+    top: 450px;
 }
 
 .puerta {
-
+    height:150px;
+    width:80px;
+    background-color: brown;
+    border: 4px solid black;
+    position: absolute;
+    left: 428px;
+    top: 443px;
 }
 
 .chimenea {
-
+    height:90px;
+    width:60px;
+    background-color: grey;
+    border: 4px solid black;
+    position: absolute;
+    left: 250px;
+    top: 200px;
 }
 
 .humo1 {
-
+     width: 70px;
+     height: 70px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: white;
+     position: absolute;
+     left: 260px;
+     top: 125px;
 }
 
 .humo2 {
-
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: white;
+     position: absolute;
+     left: 300px;
+     top: 100px;
 }
 
 .humo3 {
+     width: 30px;
+     height: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: white;
+     position: absolute;
+     left: 340px;
+     top: 90px;
+}
 
+.luna {
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-color: yellow;
+     position: absolute;
+     left: 700px;
+}
+
+.menguante {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #380B61; 
+    position: absolute;
+    left: 730px;
 }
